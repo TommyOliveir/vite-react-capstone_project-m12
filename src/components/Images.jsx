@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react"
 import { Context } from "../Context"
+import PropTypes from "prop-types"
 
 function Image({ className, img }) {
     const [hovered, setHovered] = useState(false)
