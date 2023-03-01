@@ -165,10 +165,10 @@ a:active {
 
 .badge {
   font-size: 14px;
-  top: 35px;
-  right: 330px;
-  position: absolute;
-  padding:  1px 9px;
+  top: -25px;
+  right: 16px;
+  position: relative;
+  padding:  4px 9px;
   border-radius: 50%;
   background-color: red;
   color: white;
