@@ -8,7 +8,7 @@
 :root {
   --black: #150605;
   --red: #EA453C;
-  --pink: #F47B6E;
+  --green: #09cc57;
   --light-blue: #EFFBFE;
   --blue: #ACE6EC;
 }
@@ -138,7 +138,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--pink);
+  background-color: var(--green);
   color: var(--light-blue);
   padding: .1rem 1.5rem;
   -webkit-box-shadow: 0px 2px 10px -5px rgba(21, 6, 5, 1);
@@ -168,8 +168,9 @@ a:active {
   top: 35px;
   right: 330px;
   position: absolute;
-  padding: 1px 10px;
+  padding:  1px 9px;
   border-radius: 50%;
   background-color: red;
   color: white;
+ 
 }
