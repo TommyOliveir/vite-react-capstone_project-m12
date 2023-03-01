@@ -9,7 +9,7 @@ function Header() {
         <header>
             <Link to='/'><h2>Pic Some</h2></Link>
             <Link to='/cart'>
-                <i className={`${cartClassName} ri-fw ri-2x`}></i>
+                <i className={`${cartClassName} ri-fw ri-2x`}> {cartItems.length > 0 ?  <span class="badge">{cartItems.length}</span> : ''}</i>  
             </Link>
         </header>
     )
